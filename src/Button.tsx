@@ -2,7 +2,7 @@ import React from 'react';
 import { styled, CSS, StitchesVariants } from './stitches.config';
 import type * as Polymorphic from '@radix-ui/react-polymorphic';
 
-const StyledButton = styled('button', {
+export const StyledButton = styled('button', {
   // Reset
   all: 'unset',
   alignItems: 'center',

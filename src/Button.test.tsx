@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button } from './Button';
+import { StyledButton } from './Button';
 import { render, screen } from '@testing-library/react';
 
 describe('Button', () => {
   it('should render the primary button', () => {
-    render(<Button  />);
+    render(<StyledButton  />);
     expect(screen.getByRole('button')).toBeTruthy();
   });
 });
